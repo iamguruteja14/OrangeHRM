@@ -1,8 +1,8 @@
 import{test,expect} from '@playwright/test'
 
-import Preproddata from "../Test Data/preprod.json"
-import QAdata from "../Test Data/QA.json"
-import UATdata from "../Test Data/UAT.json"
+import Preproddata from "../../Test Data/preprod.json"
+import QAdata from "../../Test Data/QA.json"
+import UATdata from "../../Test Data/UAT.json"
 
 if(process.env.Environment==="PREPROD"){
 

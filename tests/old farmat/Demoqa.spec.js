@@ -1,6 +1,6 @@
 import{test,expect} from '@playwright/test'
 
-import data from "../Test Data/demoqa.json"
+import data from "../../Test Data/demoqa.json"
 
 test('Verify the Add Employees',async({page})=>{
     await page.goto('https://demoqa.com/')
