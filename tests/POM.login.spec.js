@@ -12,9 +12,7 @@ test.describe("verify login functionalities",()=>{
         await login.verifylogo()
     })
      
-    // let teja = await browser.newContext()
-    // let page=await teja.newPage()
-    // let guru = new LoginPage(page)
+  
 
 
     test("verify the login with valid creds",async ()=>{
