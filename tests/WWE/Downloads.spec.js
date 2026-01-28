@@ -1,5 +1,5 @@
 import{test,expect} from '@playwright/test'
-import { promises } from 'node:dns'
+//import { promises } from 'node:dns'
 
 test('working with the downloads',async({page})=>{
 await page.goto('https://the-internet.herokuapp.com/download')
